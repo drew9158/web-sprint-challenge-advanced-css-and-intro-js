@@ -139,5 +139,9 @@ button:hover{
 
 /* Breakpoint Styling */
 @media(max-width: 500px) {
-    
+    .artists-container {
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+    }
 }
