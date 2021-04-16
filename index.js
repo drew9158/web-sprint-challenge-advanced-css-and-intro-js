@@ -219,7 +219,7 @@ Practice accessing data above by console.log-ing following items:
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
-artists.splice(9, 1, "Vincent Van Gogh");
+artists.splice(9, 10, 1, "Vincent Van Gogh");
 console.log(artists[9].name);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
@@ -247,8 +247,9 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array){
   let newArray = [];
   for (let i = 0; i < array.length; i++) {
-    if (array[i].years)
-    newArray.push(array[i].name);
+    if (array[i]["years"].includes("18")) {
+      newArray.push(array[i].name);
+    }
   }
   return newArray
 }
@@ -299,8 +300,6 @@ function addArtist(array){
   array.push(object);
   return array;
 }
-
-  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 

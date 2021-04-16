@@ -81,6 +81,7 @@ nav span{
     border-left:3px solid #626262;
 
 }
+
 /*Title Section Styles*/
 .title-container{
     display:flex;
@@ -119,6 +120,7 @@ button:hover{
     color:white;
     box-shadow: 2px 2px 1px white;
 }
+
 /*Artists Section Styles */
 .artists-container{
     display:flex;
