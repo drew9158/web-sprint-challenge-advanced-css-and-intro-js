@@ -139,9 +139,37 @@ button:hover{
 
 /* Breakpoint Styling */
 @media(max-width: 500px) {
+    /*HEADER STYLES */
+    nav{
+        width:50%;
+        justify-content:space-evenly;
+        margin-top:5%;
+    }
+    nav a{
+        font-size: 2rem;
+    }
+    nav span{
+        border-left:2px solid #626262;
+    
+    }
+
+    /*Title Section Styles*/
+    .title-container div {
+        height:40vh;
+        width: 100%;
+    }
+    .title-container div h1 {
+        font-size: 5rem;
+    }
+    .title-container hr{
+        width:100%;
+    }
+    /*Artists Section Styles */
     .artists-container {
-        /* flex-direction: column; */
-        /* flex-wrap: wrap; */
-        /* justify-content: center; */
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .artist {
+        width: 80%;
     }
 }
