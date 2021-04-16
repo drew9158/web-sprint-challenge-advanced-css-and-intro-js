@@ -155,7 +155,7 @@ button:hover{
 
     /*Title Section Styles*/
     .title-container div {
-        height:40vh;
+        height: 40vh;
         width: 100%;
     }
     .title-container div h1 {
@@ -167,9 +167,20 @@ button:hover{
     /*Artists Section Styles */
     .artists-container {
         flex-direction: column;
-        justify-content: space-evenly;
+        align-items: center;
     }
     .artist {
         width: 80%;
+        margin: 1rem, 0.2rem;
+    }
+    .artist img {
+        width: 80%;
+        height: auto;
+    }
+    .artist a {
+        font-size: 2rem;
+    }
+    .artist div {
+        font-size: 1.2rem;
     }
 }
